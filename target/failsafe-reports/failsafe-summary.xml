@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<failsafe-summary result="255" timeout="false">
-  <completed>18</completed>
-  <errors>0</errors>
-  <failures>2</failures>
-  <skipped>1</skipped>
-  <failureMessage/>
-</failsafe-summary>

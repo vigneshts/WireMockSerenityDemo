@@ -1,7 +1,0 @@
-com/wiremockserenity/cucumber/serenity/GetWeatherFromActualSteps.class
-com/wiremockserenity/cucumber/steps/GetWeatherFromActualApi.class
-com/wiremockserenity/runner/TestRunner.class
-com/wiremockserenity/utils/TestUtils.class
-com/wiremockserenity/cucumber/serenity/GetWeatherFromLocalSteps.class
-com/wiremockserenity/testbase/TestBase.class
-com/wiremockserenity/cucumber/steps/GetWeatherFromLocalApi.class

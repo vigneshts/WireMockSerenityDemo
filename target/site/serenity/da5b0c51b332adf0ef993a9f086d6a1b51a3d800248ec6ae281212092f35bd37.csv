@@ -1,2 +1,0 @@
-"Story","Title","Result","Date","Stability","Duration (s)"
-"Get Weather from the actual service","Get weather using city ID from actual server. This is a failing scenario","FAILURE","2018-02-10T23:15:06.868-06:00","0.0","0.16"
