@@ -1,0 +1,6 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Get Weather from the local service","Get weather using city ID from local server","SUCCESS","2018-02-10T23:15:07.519-06:00","0.0","0.14"
+"Get Weather from the actual service","Get weather using city name from actual server","SUCCESS","2018-02-10T23:15:06.682-06:00","0.0","0.12"
+"Get Weather from the local service","Get weather using city name from local server","SUCCESS","2018-02-10T23:15:07.356-06:00","0.0","0.11"
+"Get Weather from the actual service","Get weather using zipcode from actual server","SUCCESS","2018-02-10T23:15:00.291-06:00","0.0","4.7"
+"Get Weather from the local service","Get weather using zipcode from local server","SUCCESS","2018-02-10T23:15:07.166-06:00","0.0","0.13"

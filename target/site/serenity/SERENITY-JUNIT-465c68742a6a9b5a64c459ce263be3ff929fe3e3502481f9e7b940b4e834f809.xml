@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Get Weather from the local service" skipped="0" tests="3" time="0.39" timestamp="2018-02-41 11:15:07"><testcase name="Get weather using zipcode from local server"/><testcase name="Get weather using city name from local server"/><testcase name="Get weather using city ID from local server"/></testsuite>

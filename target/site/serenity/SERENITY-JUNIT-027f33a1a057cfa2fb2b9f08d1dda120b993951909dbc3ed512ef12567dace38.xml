@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Get Weather from the actual service" skipped="0" tests="3" time="4.98" timestamp="2018-02-41 11:15:00"><testcase name="Get weather using zipcode from actual server"/><testcase name="Get weather using city name from actual server"/><testcase name="Get weather using city ID from actual server. This is a failing scenario"><failure message="1 expectation failed.&#10;JSON path $ doesn't match.&#10;Expected: map containing [&quot;weather&quot;-&gt;ANYTHING]&#10;  Actual: {cod=400, message=581w5135 is not a city ID}&#10;" type="java.lang.AssertionError">1 expectation failed.
+JSON path $ doesn't match.
+Expected: map containing ["weather"-&gt;ANYTHING]
+  Actual: {cod=400, message=581w5135 is not a city ID}
+</failure><system-err>1 expectation failed.
+JSON path $ doesn't match.
+Expected: map containing ["weather"-&gt;ANYTHING]
+  Actual: {cod=400, message=581w5135 is not a city ID}
+
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)
+io.restassured.internal.ResponseSpecificationImpl.content(ResponseSpecificationImpl.groovy:265)
+io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:248)
+io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:268)
+com.wiremockserenity.cucumber.serenity.GetWeatherFromActualSteps.validateResponseOfCityID(GetWeatherFromActualSteps.java:41)
+com.wiremockserenity.cucumber.steps.GetWeatherFromActualApi.getWeatherUsingCityID(GetWeatherFromActualApi.java:23)
+✽.Given The user requests a GET request for the City ID "581w5135"(GetWeatherFromActualApi.feature:20)
+</system-err></testcase></testsuite>
